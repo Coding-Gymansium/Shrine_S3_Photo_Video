@@ -6,6 +6,7 @@ gem 'rails', '~> 6.1.3'
 
 gem 'aws-sdk-s3', '~> 1.14'
 gem 'bootsnap', '>= 1.4.4', require: false
+gem 'fastimage' #used to determine size and/or type of image
 gem 'figaro'
 gem 'image_processing', '~> 1.2'
 gem 'jbuilder', '~> 2.7'
