@@ -2,6 +2,7 @@ require 'shrine'
 require 'shrine/storage/file_system'
 require 'shrine/storage/memory'
 require 'shrine/storage/s3'
+
   s3 = Shrine::Storage::S3.new(
     bucket: 'iklf-user-avatars', # required
     region: 'us-east-1', # required
