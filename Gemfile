@@ -6,14 +6,15 @@ gem 'rails', '~> 6.1.3'
 
 gem 'aws-sdk-s3', '~> 1.14'
 gem 'bootsnap', '>= 1.4.4', require: false
+gem 'fastimage' #used to determine size and/or type of image
 gem 'figaro'
 gem 'image_processing', '~> 1.2'
 gem 'jbuilder', '~> 2.7'
 gem 'mini_magick', '~> 4.11'
+gem 'pg'
 gem 'puma', '~> 5.0'
 gem 'sass-rails', '>= 6'
 gem 'shrine', '~> 3.3'
-gem 'sqlite3', '~> 1.4'
 gem 'streamio-ffmpeg'
 gem 'turbolinks', '~> 5'
 gem 'webpacker', '~> 5.0'
